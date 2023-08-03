@@ -1,6 +1,17 @@
 {
   "dependencies": {
+    "chai": "^4.3.7",
     "chromedriver": "^115.0.0",
+    "mkdirp": "^3.0.1",
+    "mocha": "^10.2.0",
     "selenium-webdriver": "^4.11.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "update-chromedriver": "chromedriver-manager update",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "chromedriver-manager": "^0.2.0"
   }
 }
